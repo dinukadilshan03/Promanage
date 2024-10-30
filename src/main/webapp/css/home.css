@@ -1,0 +1,363 @@
+body {
+	font-family: 'Poppins', sans-serif;
+	/* Font style */
+	background: linear-gradient(135deg, #e0f7fa 30%, #e1f5fe 90%);
+	/* Gradient background */
+	margin: 0;
+	/* Remove default margin */
+	padding: 0;
+	/* Remove default padding */
+}
+
+/* Header styles */
+header {
+	background-color: #39ace7;
+	/* Bright Blue background for header */
+	color: white;
+	/* White text color */
+	padding: 40px 0;
+	/* Vertical padding for header */
+	text-align: center;
+	/* Center text alignment */
+	font-size: 36px;
+	/* Header font size */
+	letter-spacing: 1px;
+	/* Space between letters */
+}
+
+/* Navigation bar styles */
+nav {
+	display: flex;
+	/* Flexbox for navigation layout */
+	justify-content: center;
+	/* Center navigation links */
+	background-color: #0784b5;
+	/* Teal background */
+	padding: 20px 0;
+	/* Vertical padding for nav */
+}
+
+/* Navigation link styles */
+nav a {
+	color: white;
+	/* White text for links */
+	padding: 12px 25px;
+	/* Padding around links */
+	text-decoration: none;
+	/* Remove underline from links */
+	font-size: 18px;
+	/* Font size for links */
+	margin: 0 20px;
+	/* Horizontal margin between links */
+	display: flex;
+	/* Flexbox for icon and text alignment */
+	align-items: center;
+	/* Center icon and text vertically */
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	/* Smooth background color change on hover */
+}
+
+/* Icon styles in navigation links */
+nav a i {
+	margin-right: 8px;
+	/* Space between icon and text */
+	font-size: 18px;
+	/* Icon size */
+}
+
+/* Hover effect for navigation links */
+nav a:hover {
+	background-color: #39ace7;
+	/* Lighter Teal on hover */
+	border-radius: 5px;
+	/* Rounded corners on hover */
+	transform: scale(1.05);
+	/* Slightly enlarge on hover */
+}
+
+/* General section styles */
+section {
+	padding: 50px 20px;
+	/* Padding for sections */
+	max-width: 1200px;
+	/* Maximum width for sections */
+	margin: auto;
+	/* Center sections horizontally */
+}
+
+/* Flexbox container for sections */
+.section-container {
+	display: flex;
+	/* Flexbox for layout */
+	justify-content: space-between;
+	/* Space between items */
+	align-items: flex-start;
+	/* Align items at the top */
+	margin-bottom: 50px;
+	/* Space below sections */
+}
+
+/* Content area in section */
+.section-content {
+	flex-basis: 60%;
+	/* Occupy 60% of the section */
+}
+
+/* Image area in section */
+.section-image {
+	flex-basis: 35%;
+	/* Occupy 35% of the section */
+	text-align: center;
+	/* Center images */
+}
+
+/* Styles for images in section */
+.section-image img {
+	max-width: 100%;
+	/* Responsive image size */
+	border-radius: 8px;
+	/* Rounded corners for images */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* Shadow effect */
+}
+
+/* Specific styles for the About Us section */
+.about-us {
+	background-color: #ffffff;
+	/* White background */
+	padding: 30px;
+	/* Padding for About Us */
+	border-radius: 8px;
+	/* Rounded corners */
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	/* Shadow effect */
+	margin-bottom: 50px;
+	/* Space below section */
+}
+
+/* Specific styles for the Vision section */
+.vision {
+	background-color: #ffe0b2;
+	/* Light Orange background */
+	padding: 30px;
+	/* Padding for Vision */
+	border-radius: 8px;
+	/* Rounded corners */
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	/* Shadow effect */
+	margin-bottom: 50px;
+	/* Space below section */
+}
+
+/* Specific styles for the Contact Us section */
+.contact-us {
+	background-color: #fce4ec;
+	/* Light Pink background */
+	padding: 30px;
+	/* Padding for Contact Us */
+	border-radius: 8px;
+	/* Rounded corners */
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+	/* Shadow effect */
+	margin-bottom: 50px;
+	/* Space below section */
+}
+
+/* Styles for the Features section */
+.features {
+	padding: 30px;
+	/* Padding for Features */
+	border-radius: 8px;
+	/* Rounded corners */
+	margin-bottom: 50px;
+	/* Space below section */
+	background: linear-gradient(135deg, #e1f5fe, #e0f7fa);
+	/* Soft gradient background */
+}
+
+/* Heading styles */
+h2 {
+	color: #414c50;
+	/* Dark color for headings */
+	font-size: 28px;
+	/* Heading font size */
+	margin-bottom: 20px;
+	/* Space below headings */
+}
+
+/* Paragraph styles */
+p {
+	font-size: 16px;
+	/* Paragraph font size */
+	line-height: 1.6;
+	/* Line height for readability */
+	color: #666;
+	/* Gray color for text */
+}
+
+/* Unordered list styles */
+ul {
+	padding-left: 20px;
+	/* Indent for lists */
+}
+
+/* List item styles */
+li {
+	margin-bottom: 10px;
+	/* Space between list items */
+	color: #333;
+	/* Dark color for list items */
+}
+
+/* Map iframe styles */
+.map {
+	margin: auto;
+	/* Center map */
+	width: 100%;
+	/* Full width */
+	height: 400px;
+	/* Fixed height */
+	border: 0;
+	/* Remove border */
+	border-radius: 8px;
+	/* Rounded corners */
+}
+
+/* Footer styles */
+footer {
+	background-color: #0784b5;
+	/* Darker background */
+	color: white;
+	/* White text color */
+	text-align: center;
+	/* Center text alignment */
+	padding: 40px 20px;
+	/* Padding for footer */
+	display: flex;
+	/* Flexbox for footer layout */
+	flex-direction: column;
+	/* Column layout */
+	align-items: center;
+	/* Center items */
+}
+
+/* Footer paragraph styles */
+footer p {
+	margin: 10px 0;
+	/* Vertical margin for paragraphs */
+	color: white;
+}
+
+/* Footer icon container styles */
+.footer-icons {
+	margin-top: 15px;
+	/* Space above icons */
+}
+
+/* Footer icon link styles */
+.footer-icons a {
+	color: white;
+	/* White color for icon links */
+	margin: 0 10px;
+	/* Horizontal margin for icons */
+	font-size: 20px;
+	/* Icon font size */
+	transition: color 0.3s ease;
+	/* Smooth color change on hover */
+}
+
+/* Hover effect for footer icons */
+.footer-icons a:hover {
+	color: #39ace7;
+	/* Light Blue color on hover */
+}
+
+/* Features Section Styles */
+.features {
+	text-align: center;
+	/* Center text in Features section */
+	padding: 50px 20px;
+	/* Padding for Features section */
+	background: linear-gradient(135deg, #e1f5fe, #e0f7fa);
+	/* Soft gradient background */
+}
+
+/* Heading styles in Features section */
+.features h2 {
+	font-size: 28px;
+	/* Font size for heading */
+	margin-bottom: 30px;
+	/* Space below heading */
+	color: #414c50;
+	/* Dark color */
+}
+
+/* Flexbox container for feature cards */
+.features-container {
+	display: flex;
+	/* Flexbox for layout */
+	justify-content: space-between;
+	/* Space between cards */
+	flex-wrap: wrap;
+	/* Allow wrapping of cards */
+	gap: 20px;
+	/* Gap between cards */
+	max-width: 1200px;
+	/* Max width for container */
+	margin: auto;
+	/* Center container */
+}
+
+/* Individual feature card styles */
+.feature-card {
+	background-color: #ffffff;
+	/* White background */
+	padding: 30px 20px;
+	/* Padding for feature cards */
+	border-radius: 8px;
+	/* Rounded corners */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	/* Shadow effect */
+	text-align: center;
+	/* Center text in cards */
+	flex: 1 1 18%;
+	/* Flex properties for responsiveness */
+	min-width: 250px;
+	/* Minimum width for cards */
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	/* Smooth transformation on hover */
+}
+
+/* Hover effect for feature cards */
+.feature-card:hover {
+	transform: translateY(-10px);
+	/* Lift card on hover */
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+	/* Deeper shadow on hover */
+}
+
+/* Icon styles for feature cards */
+.feature-icon {
+	font-size: 50px;
+	/* Size of icons */
+	color: #0784b5;
+	/* Teal color for icons */
+	margin-bottom: 20px;
+	/* Space below icons */
+}
+
+/* Heading styles for feature cards */
+.feature-card h3 {
+	font-size: 20px;
+	/* Font size for card headings */
+	color: #414c50;
+	/* Dark color for headings */
+}
+
+/* Paragraph styles for feature cards */
+.feature-card p {
+	color: #666;
+	/* Gray color for text */
+	line-height: 1.5;
+	/* Line height for readability */
+}
